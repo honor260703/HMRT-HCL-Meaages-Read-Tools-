@@ -8,7 +8,12 @@
 如上图所示，当HCL与MobaXterm绑定后，再双击网络设备启动MobaXterm会话，新建的MobaXterm会话名只会显示本地IP，不会显示设备名，而自己手动去修改会话名或直接新建Telnet会话又过于繁琐且麻烦
 而使用脚本就不会存在这种问题
 ![图片](https://github.com/user-attachments/assets/c480627e-db2a-43d7-8272-4e8ec0c27644)
-
+## 我该怎么使用？
+很简单，你只需要花费你一丢丢流量去下载exe程序，并放在保存好的HCL拓扑文件夹内，确保exe程序身边确实有.net文件
+![图片](https://github.com/user-attachments/assets/21e1313a-8c80-41c6-8940-1382dd1b68b0)
+然后直接双击运行exe程序
+![图片](https://github.com/user-attachments/assets/55fb30a4-e4a9-4895-9b19-afcf13e06399)
+便可以直接生成会话文件，最后再导入进你电脑的MobaXterm内就行
 ## 版权声明
 本代码遵循MIT许可证。同时，使用者在使用、修改和分发本代码时，应保留所有原始注释。
 
