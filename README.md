@@ -4,7 +4,11 @@
 `HMRT(HCL-Meaages-Read-Tools).py` 是一个用于处理 `.net` 文件并生成 `MobaXterm Sessions.mxtsessions` 文件的Python脚本。该脚本能够读取指定目录下的所有 `.net` 文件，提取其中的设备信息，并根据这些信息生成 `MobaXterm Sessions.mxtsessions` 文件。
 ## HCL不是自带可以连到MobaXterm吗？为什么还需要这个工具？
 ![图片](https://github.com/user-attachments/assets/1b0f941f-a6e2-4a71-8bbf-9684306daaf0)
+
 如上图所示，当HCL与MobaXterm绑定后，再双击网络设备启动MobaXterm会话，新建的MobaXterm会话名只会显示本地IP，不会显示设备名，而自己手动去修改会话名或直接新建Telnet会话又过于繁琐且麻烦
+而使用脚本就不会存在这种问题
+![图片](https://github.com/user-attachments/assets/c480627e-db2a-43d7-8272-4e8ec0c27644)
+
 ## 版权声明
 本代码遵循MIT许可证。同时，使用者在使用、修改和分发本代码时，应保留所有原始注释。
 
